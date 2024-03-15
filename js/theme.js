@@ -318,6 +318,6 @@ window.addEventListener('resize', function(){
 		imagem.alt = 'Logo MerQ White';
 	} else {
 		imagem.src = 'img/logo.svg';
-		imamge.alt = 'Logo MerQ black';
+		imagem.alt = 'Logo MerQ black';
 	}
 });
