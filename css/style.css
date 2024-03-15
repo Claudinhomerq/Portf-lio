@@ -161,7 +161,6 @@ button:focus {
   background: -moz-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
   background: -o-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
   background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
 /* End Gradient Area css
@@ -2460,7 +2459,7 @@ h6 {
 /* Start Barand Area css
 ============================================================================================ */
 .brand_area {
-  padding-bottom: 170px; }
+  margin-bottom: 5px; }
   @media (max-width: 1199px) {
     .brand_area {
       padding-bottom: 80px; } }
@@ -2604,12 +2603,8 @@ h6 {
     font-weight: 700;
     color: #000000; }
 
-/* End Brand Area css
-============================================================================================ */
-/* Start Portfolio Area css
-============================================================================================ */
 .portfolio_area {
-  padding-bottom: 120px; }
+  padding-bottom: 0px; }
   @media (max-width: 991px) {
     .portfolio_area {
       padding-bottom: 50px; } }
@@ -3256,6 +3251,7 @@ h6 {
 
 .footer_area {
   padding: 120px 0;
+  margin-top: 250px;
   position: relative; }
   .footer_area:before {
     content: '';

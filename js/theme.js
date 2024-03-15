@@ -307,3 +307,17 @@
 		});
 	}
 })(jQuery);
+
+
+window.addEventListener('resize', function(){
+	var larguraJanela = window.innerWidth;
+	var imagem = document.getElementById('imagem');
+
+	if (larguraJanela < 992) {
+		imagem.src = 'img/logowhite.svg';
+		imagem.alt = 'Logo MerQ White';
+	} else {
+		imagem.src = 'img/logo.svg';
+		imamge.alt = 'Logo MerQ black';
+	}
+});

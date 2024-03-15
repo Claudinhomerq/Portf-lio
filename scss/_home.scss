@@ -189,9 +189,8 @@
 /* Start Portfolio Area css
 ============================================================================================ */
 .portfolio_area {
-	padding-bottom: 120px;
+	margin-bottom: 100px;
 	@media (max-width: 991px) {
-		padding-bottom: 50px;
 	}
 	.filters {
 		ul {
@@ -272,8 +271,6 @@
 			left: 50%;
 		}
 	}
-}
-.portfolio_details_area {
 }
 
 .portfolio_details_inner {
